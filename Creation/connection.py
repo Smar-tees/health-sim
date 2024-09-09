@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 
-with open('SECRET_STASH//MY_FIRST_SECRET.txt') as f:
+with open('SECRETS.txt') as f:
     key = f.read()
 
 client = OpenAI(
